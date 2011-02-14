@@ -2,7 +2,7 @@
 <div id="center">
   <div class="article_wrapper">
     <h2>Inicio</h2>
-    <p>Colador es la aplicación usada en el libro <a href="">Programación web segura</a> para demostrar diferentes problemas de seguridad.</p>
+    <p>Colador es la aplicación usada en el libro <a href="http://ktulu.com.ar/books/seguridad-web">Programación web segura</a> para demostrar diferentes problemas de seguridad.</p>
     <p>Cada link de la columna de la izquierda (en <i>Ejemplos</i>) lleva a una página de un problema en particular.</p>
     <p>Si necesitás poner la base de datos en su estado inicial, usa el link de la barra superior <a href="reset_db.php">Resetear DB</a>.</p>
   </div>
