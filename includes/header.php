@@ -20,7 +20,7 @@
 			</ul>
 			<hr />
 			<div id="banner">
-				Aplicación para demostrar problemas de seguridad comunes en aplicaciones web.
+				Aplicación para demostrar problemas de seguridad comunes a aplicaciones web. Es parte del libro <a href="http://ktulu.com.ar/books/seguridad-web">Programación web segura</a>.
 			</div>
 			<hr />
 		</div>
