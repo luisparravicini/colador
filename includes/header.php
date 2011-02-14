@@ -42,8 +42,8 @@
       </ul>
 			<h3 class="leftbox header_small">Inyección de SQL</h3>
 			<ul class="leftbox borderedlist">
-				<li><a href="sql_injection_multiple.php" title="Inyección de SQL">Ejecución múltiple</a></li>
 				<li><a href="sql_injection_select.php" title="Inyección básica">Inyección básica</a></li>
+				<li><a href="sql_injection_multiple.php" title="Inyección de SQL">Ejecución múltiple</a></li>
 				<li><a href="sql_injection_second.php" title="Segundo orden">Segundo orden</a></li>
 			</ul>
 			<h3 class="leftbox header_small">Validaciones</h3>
