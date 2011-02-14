@@ -46,20 +46,6 @@
 	#leftcolumn{float: left;width:193px;}
 	#center{float: left;width:440px;padding: 0 20px;}
 	#rightcolumn{float: left;width:287px;}
-	/* bottom layout */
-	#bottominfo{
-		border-top: 5px solid #42423b;
-		background: #f1eee7;
-		padding-bottom:25px;
-		width: 100%;
-		overflow: hidden;
-	}
-	.bottomcolumn{
-		float: left;
-		width:288px;
-		margin-right: 18px;
-	}
-	.bottomright{margin-right:0;}
 	
 /* =HEADER - the header styles */
 	#header .container{height: 200px;}
@@ -206,7 +192,7 @@
 		height: 23px;
 		padding:2px 0 0 30px;
 		margin-top: 5px;
-    font-size: 0.7em;
+    font-size: 0.6em;
 	}
 	#footer_navigation{
 		float: right;
