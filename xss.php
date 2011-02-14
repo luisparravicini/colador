@@ -35,7 +35,7 @@ function showCode() {
 <?php
 //TODO chequear que todas las paginas sean validas con validator.w3.org
 ?>
-  <?php echo info_column('Información', 'Ejemplo de XSS. Se provee codigo para agregar a la página un login falso que envía los datos del usuario a un url del atacante (en este caso es solo otro .php de la misma aplicación). Para más información ver el capítulo X.') ?>
+  <?php echo info_column('Información', 'Ejemplo de XSS. Se provee codigo para agregar a la página un login falso que envía los datos del usuario a un url del atacante (en este caso es solo otro .php de la misma aplicación). Para más información ver el capítulo 8.') ?>
 </div>
 </div>
 <?php include('includes/footer.php'); ?>

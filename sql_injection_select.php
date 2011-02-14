@@ -24,7 +24,7 @@
 ?>
 <div id="center">
   <div class="article_wrapper">
-    <h2>Inyección de SQL (SELECT)</h2>
+    <h2>Inyección de SQL (básica)</h2>
     <div>
       <?php if (isset($query)): ?>
       <div class='bordered'>
@@ -53,7 +53,7 @@
 <?php
 //TODO chequear que todas las paginas sean validas con validator.w3.org
 ?>
-  <?php echo info_column('Información', 'Demostración de inyección de SQL. El ejemplo específico es modificar el SELECT hecho por el buscador por medio de lo ingresado en la búsqueda.') ?>
+  <?php echo info_column('Información', 'Demostración de inyección de SQL. El ejemplo específico es modificar el SELECT hecho por el buscador por medio de lo ingresado en la búsqueda. Más información en el capítulo 10.') ?>
 </div>
 </div>
 <?php include('includes/footer.php'); ?>

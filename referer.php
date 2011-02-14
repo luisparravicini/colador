@@ -18,7 +18,7 @@
 <?php
 //TODO reemplazar el resto de las columnas en otras paginas por info_column
 ?>
-  <?php echo info_column('Información', 'El referer es un encabezado enviado por el navegador que indica el URL donde se encuentra el link al documento actual. <i>Ver capítulo 1 para más información</i>.'); ?>
+  <?php echo info_column('Información', 'El referer es un encabezado enviado por el navegador que indica el URL donde se encuentra el link al documento actual. Ver capítulo 1 para más información.'); ?>
 </div>
 
 <script>

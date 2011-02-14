@@ -58,7 +58,7 @@
 <?php
 //TODO chequear que todas las paginas sean validas con validator.w3.org
 ?>
-  <?php echo info_column('Información', 'Demostración de inyección de SQL usando de ejemplo una pantalla para agregar comentarios. El ejemplo específico sobre inyección de SQL es la ejecución de múltiples sentencias.') ?>
+  <?php echo info_column('Información', 'Demostración de inyección de SQL usando de ejemplo una pantalla para agregar comentarios. El ejemplo específico sobre inyección de SQL es la ejecución de múltiples sentencias. Más información en el capítulo 10.') ?>
 </div>
 </div>
 <?php include('includes/footer.php'); ?>
