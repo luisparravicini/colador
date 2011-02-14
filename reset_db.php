@@ -1,7 +1,13 @@
-<?php include('includes/header.php'); ?>
 <?php
-  if (is_post())
+  require_once('includes/common.php');
+
+  if (is_post()) {
     reset_db();
+    redirect();
+    return;
+  }
+
+  require('includes/header.php');
 ?>
 <div id="center">
   <div class="article_wrapper">
