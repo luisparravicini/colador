@@ -5,14 +5,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Colador</title>
 <link href="stylesheets/common.css" rel="stylesheet" type="text/css" />
-<script src="javascripts/jquery.js"></script>
-<script src="javascripts/jquery-ui-1.8.6.custom.min.js"></script>
-<script src="javascripts/colador.js"></script>
+<script src="javascripts/jquery.js" type="text/javascript"></script>
+<script src="javascripts/jquery-ui-1.8.6.custom.min.js" type="text/javascript"></script>
+<script src="javascripts/colador.js" type="text/javascript"></script>
 </head>
 <body>
 	<div id="header">
 		<div class="container">
-			<h1><a href="index.php" title="Colador">Colador<span class='logo-border'></a></h1>
+			<h1><a href="index.php" title="Colador">Colador<span class='logo-border'></span></a></h1>
 			<hr />
 			<ul id="navigation">
 				<li <?php echo active_item('index.php') ?>><a href="index.php" title="Inicio">Inicio</a></li>

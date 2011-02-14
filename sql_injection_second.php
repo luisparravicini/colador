@@ -40,17 +40,17 @@
         Ciudad en la que vives: 
         <span id="city-span">
           <a href="#" id="edit_city" title="Editar"><?php echo encode($city) ?></a>
-          <br>
+          <br/>
           <a href="?search=1">&iquest;Qui&eacute;nes viven en tu misma ciudad?</a>
         </span>
-        <span id="city-edit-span" style="display:none">
+        <div id="city-edit-span" style="display:none">
           <form action="sql_injection_second.php" method="post">
-          <input type="text" size="20" name="city" value="<?php echo encode($city) ?>"/>
-          <br>
-          <input type="submit" value="Guardar" class='button'/>
-          <input type="button" value="Cancelar" id="cancel_btn" class='button'/>
+            <input type="text" size="20" name="city" value="<?php echo encode($city) ?>"/>
+            <br/>
+            <input type="submit" value="Guardar" class='button'/>
+            <input type="button" value="Cancelar" id="cancel_btn" class='button'/>
           </form>
-        </span>
+        </div>
       </div>
       <br/>
       <br/>
@@ -70,15 +70,10 @@
 </div>
 
 <div id="rightcolumn">
-<?php
-//TODO chequear que todas las paginas sean validas con validator.w3.org
-?>
   <?php echo info_column('Información', 'Demostración de inyección de SQL de segundo orden. El ejemplo específico es guardar datos que contengan una inyeccion de SQL y que luego la aplicacion los use para generar una consulta. Más información en el capítulo 10.') ?>
 </div>
-</div>
-<?php include('includes/footer.php'); ?>
 
-<script>
+<script type="text/javascript">
 $(document).ready(function() {
   $('#cancel_btn').click(function() {
     $('#city-edit-span').hide();
@@ -91,3 +86,4 @@ $(document).ready(function() {
   });
 });
 </script>
+<?php include('includes/footer.php'); ?>

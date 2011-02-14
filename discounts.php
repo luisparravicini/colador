@@ -38,10 +38,10 @@
 <div id="center">
   <div class="article_wrapper">
     <h2>Validaciones</h2>
-    <p>Los artículos que ha seleccionado<br>para recibir descuentos son
-    (máximo<br>de <?php echo $MAX ?> artículos):</p><br>
+    <p>Los artículos que ha seleccionado<br/>para recibir descuentos son
+    (máximo<br/>de <?php echo $MAX ?> artículos):</p><br/>
 
-  <form method="post">
+  <form method="post" action="discounts.php">
     <table id="items"><tr><td>
 <?php
   for ($i = 1; $i < 11; $i++) {
@@ -50,17 +50,17 @@
     echo "<input type='checkbox' name='id[]' value='$i'";
     if (in_array($i, $selected_ids))
       echo "checked='checked' ";
-    echo "> Artículo $i<br>\n";
+    echo "/> Artículo $i<br/>\n";
   }
 ?>
     </td></tr></table>
-    <input type="submit" class='button' id="submit_btn" value="Enviar">
+    <input type="submit" class='button' id="submit_btn" value="Enviar"/>
   </form>
   </div>
 </div>
 
-
-<script>
+<script type="text/javascript">
+<![CDATA[
 $(document).ready(function() {
   $('#submit_btn').click(function() {
     var checked = 0;
@@ -74,6 +74,7 @@ $(document).ready(function() {
     return (checked <= <?php echo $MAX ?>);
   });
 });
+]]>
 </script>
 
 <div id="rightcolumn">

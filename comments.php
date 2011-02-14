@@ -17,7 +17,7 @@
 ?>
     <!-- fin codigo comentado con PHP -->
 
-    <script>
+    <script type="text/javascript">
       /*
         === Comentarios en Javascript ===
 
@@ -41,7 +41,7 @@
 </div>
 
 <div id="rightcolumn">
-  <?php echo info_column('Información', '<p>Demostración de las diferentes maneras de usar comentarios. Comparar entre el contenido de <i>comments.php</i>, lo que el navegador muestra al usuario y con el codigo fuente de la pagina al verla por medio del navegador. Más información en el capítulo 6.</p>') ?>
+  <?php echo info_column('Información', 'Demostración de las diferentes maneras de usar comentarios. Comparar entre el contenido de <i>comments.php</i>, lo que el navegador muestra al usuario y con el codigo fuente de la pagina al verla por medio del navegador. Más información en el capítulo 6.') ?>
 </div>
 
 <?php include('includes/footer.php'); ?>

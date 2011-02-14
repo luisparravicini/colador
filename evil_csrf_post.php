@@ -15,9 +15,6 @@
 </div>
 
 <div id="rightcolumn">
-<?php
-//TODO chequear que todas las paginas sean validas con validator.w3.org
-?>
   <?php echo info_column('Información', 'Demostración de CSRF. La pantalla muestra el saldo de una cuenta bancaria y da la opcion de transferir dinero. El formulario evnía los datos usando POST. Más información en el capítulo 9.') ?>
 </div>
 </div>

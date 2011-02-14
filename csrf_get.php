@@ -54,7 +54,7 @@
           <td>Monto:</td><td><input type="text" size="8" id="amount" name="amount" value="<?php echo $error_message != null ? encode($amount) : '' ?>" /></td>
           </tr><tr>
           <td>Cuenta destino:</td><td><input type="text" size="15" name="dest"/></td>
-          </tr><td><td colspan="2">
+          </tr><tr><td colspan="2">
           <input type="submit" value="Confirmar" class='button' style="display:inline"/>
           <input type="button" value="Cancelar" id="cancel_btn" class='button button-right'/>
           </td></tr></table>
@@ -69,14 +69,10 @@
 </div>
 
 <div id="rightcolumn">
-<?php
-//TODO chequear que todas las paginas sean validas con validator.w3.org
-?>
   <?php echo info_column('Información', 'Demostración de CSRF. La pantalla muestra el saldo de una cuenta bancaria y da la opcion de transferir dinero. El formulario evnía los datos usando GET. Más información en el capítulo 9.') ?>
 </div>
-</div>
 
-<script>
+<script type="text/javascript">
 function showTransfer() {
   $('#transfer-box').hide();
   $('#transfer-form-box').show();

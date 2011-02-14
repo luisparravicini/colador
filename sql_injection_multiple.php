@@ -44,7 +44,7 @@
 
       <hr/>
 
-      <br>
+      <br/>
       <p>Deje su comentario:</p>
       <form method="post" action="sql_injection_multiple.php">
         <p><textarea name="multiple" cols="40" rows="5"><?php echo encode($multiple); ?></textarea></p>
@@ -55,10 +55,6 @@
 </div>
 
 <div id="rightcolumn">
-<?php
-//TODO chequear que todas las paginas sean validas con validator.w3.org
-?>
   <?php echo info_column('Información', 'Demostración de inyección de SQL usando de ejemplo una pantalla para agregar comentarios. El ejemplo específico sobre inyección de SQL es la ejecución de múltiples sentencias. Más información en el capítulo 10.') ?>
-</div>
 </div>
 <?php include('includes/footer.php'); ?>

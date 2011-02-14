@@ -17,9 +17,6 @@
 </div>
 
 <div id="rightcolumn">
-<?php
-//TODO chequear que todas las paginas sean validas con validator.w3.org
-?>
   <?php echo info_column('Información', 'Ejemplo de XSS. Esta página es el destino del login falso generado con <a href="xss.php">XSS</a>. Para más información ver el capítulo X.') ?>
 </div>
 </div>
