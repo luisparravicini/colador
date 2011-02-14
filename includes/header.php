@@ -30,7 +30,6 @@
 		<div id="leftcolumn">
 			<h3 class="leftbox">Ejemplos</h3>
 			<ul class="leftbox borderedlist">
-				<li><a href="login.php" title="Autenticación">Autenticación</a></li>
 				<li><a href="xss.php" title="XSS">XSS</a></li>
 				<li><a href="referer.php" title="Referer">Referer</a></li>
 				<li><a href="comments.php" title="Comentarios">Comentarios</a></li>
