@@ -21,26 +21,4 @@
   <?php echo info_column('Información', 'El referer es un encabezado enviado por el navegador que indica el URL donde se encuentra el link al documento actual. Ver capítulo 1 para más información.'); ?>
 </div>
 
-<script>
-$(document).ready(function() {
-  $('#user').focus();
-
-  $('#login_btn').bind('click', function() {
-    var ok = true;
-
-    if (Colador.blankInput($('#user'))) {
-      alert('Falta ingresar el nombre de usuario');
-      $('#user').focus();
-      ok = false;
-    } else
-    if (Colador.emptyInput($('#passw'))) {
-      alert('Falta ingresar la clave');
-      $('#passw').focus();
-      ok = false;
-    }
-
-    return ok;
-  });
-});
-</script>
 <?php include('includes/footer.php'); ?>
