@@ -17,7 +17,6 @@
 			<ul id="navigation">
 				<li <?php echo active_item('index.php') ?>><a href="index.php" title="Inicio">Inicio</a></li>
 				<li <?php echo active_item('reset_db.php') ?>><a href="reset_db.php" title="Resetear DB">Resetear DB</a></li>
-				<li <?php echo active_item('contact.php') ?>><a href="#" title="Contact">Contact</a></li>
 			</ul>
 			<hr />
 			<div id="banner">
